@@ -35,5 +35,5 @@ class RabbitMQPublisher:
 
 rabbitmq_publisher = RabbitMQPublisher()
 rabbitmq_publisher.publish({
-    "message": "Hello, Julian!"
+    "message": "Hello, Julian! This is a test message. It should be sent to the Telegram group using RabbitMQ"
 })
